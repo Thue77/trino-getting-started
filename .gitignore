@@ -24,3 +24,11 @@ hs_err_pid*
 
 # Mac
 .DS_Store
+
+# Files with secrets
+.env
+adls2.properties
+delta.properties
+metastore-site.xml
+
+
