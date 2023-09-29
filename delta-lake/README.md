@@ -1,4 +1,19 @@
-# Delta Lake example
+# Introduction
+
+# Architecture
+
+# Setup 
+
+## Register secrets in environment
+Secrets need to be stored as environmental variables. The following suggests a procedure to do so 
+- Remove ".temp" from [.env.temp](.env.temp) and populate the values. 
+- Execute [dot_env_to_env_vars.ps1](dot_env_to_env_vars.ps1) to load the values in the `.env` file as environment variables
+- Execute [env_vars_in_files.ps1](env_vars_in_files.ps1) to create non-temp versions populated with secrets of the relevant configuration files
+
+## Spinning up containers
+
+
+# Delta Lake example - From bitsondatadev/trino-getting-started
 
 This examples showcases the Delta Lake connector. It uses MinIO for
 S3-compatible objects storage for Delta Lake and a Hive Metastore Service backed
